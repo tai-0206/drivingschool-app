@@ -1,0 +1,161 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Line-height
+$headings-line-height: 1.5;
+
+// Colors
+$gray-dark: #546E7A;
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  letter-spacing: 0.1em;
+}
+
+ul {
+  list-style-type: none;
+  overflow-wrap: break-word;
+}
+
+tr {
+  width:100%;
+  margin-bottom: 20px;
+}
+
+.table .table-td {
+  padding-left: 120px;
+}
+
+.btn {
+  display: inline-block;
+  width: 150px;
+}
+
+.btn-home {
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 3px 0;
+  margin-top: 30px;
+}
+
+.btn-home li {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn-home a {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+
+.btn-blue {
+  height:50px;
+  width: 280px;
+  border-radius: 30px;
+  color: #FFF;
+  border-color: #73B2EC;
+  background-color: #73B2EC;
+}
+
+.btn-gray {
+  height:50px;
+  width: 280px;
+  border-radius: 30px;
+  color: #FFF;
+  border-color: #CACFD2;
+  background-color: #CACFD2;
+}
+
+.btn-back a {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+
+.home-text {
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+.home-text h5 {
+  text-align: center;
+}
+
+.list-group {
+    display: flex;
+    justify-content: center;
+}
+
+.list-item {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-home {
+  border:1px solid #EEE;
+  box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+  -webkit-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+  -moz-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+  background-color: #FFF;
+  width: 90%;
+  height: 350px;
+  margin: auto;
+  padding: 15px;
+}
+
+.view-reserve {
+  border:1px solid #EEE;
+  box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+  -webkit-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+  -moz-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+  background-color: #FFF;
+  width: 90%;
+  height: 190px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.create-reserve {
+  border:1px solid #EEE;
+  box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+  -webkit-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+  -moz-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
+  background-color: #FFF;
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  padding: 15px;
+}
+
+.form-label {
+  font-size: 13px;
+  margin-left: 25px;
+}
+
+.form-select {
+  height: 40px;
+}
+
+.btn-home a:hover {
+  border-color: #acacac;
+  background-color: #acacac;
+}
+
+.btn-gray:hover {
+  border-color: #acacac;
+  background-color: #acacac;
+}
+
+.nav-link:hover {
+  color: #FFF;
+}

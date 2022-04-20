@@ -12,13 +12,6 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
-    <!-- <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
-    <script src="assets/pickadate/picker.js"></script>
-    <script src="assets/pickadate/picker.date.js"></script>
-    <script src="assets/pickadate/picker.time.js"></script>
-    <script src="assets/pickadate/legacy.js"></script>
-    <script src="assets/pickadate/lang-ja.js"></script>
-    <script src="assets/js/main.js"></script> -->
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -26,12 +19,21 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/default.date.css">
-    <link rel="stylesheet" href="assets/css/default.time.css"> -->
 
     <!-- 最新 -->
+    <!-- <link rel="stylesheet" href="{{ asset('css/main.css') }}"> -->
+    <link rel="stylesheet" href="{{ asset('css/default.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/default.date.css') }}">
+    <!-- クラクシック版 -->
+    <!-- <link rel="stylesheet" href="assets/css/classic.css">
+<link rel="stylesheet" href="assets/css/classic.date.css"> -->
+
+    <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script src="{{ asset('pickadate/picker.js') }}"></script>
+    <script src="{{ asset('pickadate/picker.date.js') }}"></script>
+    <script src="{{ asset('pickadate/legacy.js') }}"></script>
+    <script src="{{ asset('pickadate/lang-ja.js') }}"></script> <!-- 日本語化 -->
+    <script src="{{ asset('js/main.js') }}"></script>
 
 </head>
 

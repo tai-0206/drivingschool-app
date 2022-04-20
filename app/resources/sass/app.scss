@@ -132,7 +132,7 @@ tr {
   -moz-box-shadow:rgba(122, 122, 122, 0.0588235) 0px 0px 6px 3px;
   background-color: #FFF;
   width: 90%;
-  height: 500px;
+  height: 350px;
   margin: auto;
   padding: 15px;
 }
@@ -144,6 +144,7 @@ tr {
 
 .form-select {
   height: 40px;
+  border: 3px solid #cccccc;
 }
 
 .btn-home a:hover {

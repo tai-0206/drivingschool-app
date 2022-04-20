@@ -5,17 +5,15 @@ $title = '技能予約';
 @extends('layouts.app')
 
 @section('content')
-<form class="create-reserve row g-3 d-flex flex-column">
-    <div class="mx-auto">
-        <div class="section__block section__block--scoped mx-auto">
-            <fieldset class="fieldset fieldset--demo">
-                <div class="fieldset__wrapper">
-                    <label>日付</label></br>
-                    <input id='date' class="fieldset__input js__datepicker" type="text" placeholder="選択してください&hellip;"></br></br>
-                </div>
-            </fieldset>
+<form class="create-reserve row g-3 d-flex flex-column" action="" method="post">
+    <section class="section mx-auto" style="width: 90%;">
+        <div class="section__block section__block--scoped">
+            <label class="form-label">日付を選択</label>
+            <div class="">
+                <input id="demo" class="fieldset__input js__datepicker rounded-pill form-select mx-auto" style="width: 90%;" type="text" placeholder="選択してください">
+            </div>
         </div>
-    </div>
+    </section>
     <div class="col-md-4 mx-auto" style="width:90%;">
         <label for="inputState" class="form-label">時間を選択</label>
         <select id="inputState" class="form-select rounded-pill mx-auto" style="width:90%;">
